@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Solfest On The Road</title>
+    <meta name="description" content="Learn more about Solfest on the Road and our mission to bring amazing experiences across the country">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Solfest Logo" id="logo-img">
+                        <span class="logo-text">SOLFEST ON THE ROAD</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Events</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                    <div class="nav-actions">
+                        <button class="search-btn" id="searchBtn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <div class="language-selector">
+                            <button class="lang-btn" id="langBtn">
+                                <img src="images/flag-en.png" alt="English" class="flag-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="lang-dropdown" id="langDropdown">
+                                <a href="#" data-lang="en"><img src="images/flag-en.png" alt="English"> English</a>
+                                <a href="#" data-lang="es"><img src="images/flag-es.png" alt="Spanish"> Español</a>
+                                <a href="#" data-lang="fr"><img src="images/flag-fr.png" alt="French"> Français</a>
+                            </div>
+                        </div>
+                        <button class="cart-btn" id="cartBtn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count" id="cartCount">0</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="searchModal">
+        <div class="search-modal-content">
+            <button class="close-search" id="closeSearch">&times;</button>
+            <form class="search-form">
+                <input type="text" placeholder="Search for events or products..." id="searchInput">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>About Solfest On The Road</h1>
+            <p class="breadcrumb">
+                <a href="index.html">Home</a> / <span>About</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/about-hero.jpg" alt="Solfest On The Road">
+                </div>
+                <div class="about-content">
+                    <h2>Welcome to Solfest On The Road</h2>
+                    <p>Since its inception, Solfest has been synonymous with unforgettable experiences, bringing together families and music lovers for midweek celebrations that create lasting memories. Now, we're taking that magic on the road!</p>
+                    
+                    <p>Solfest On The Road represents the evolution of our beloved festival format. We're bringing the same incredible atmosphere, world-class entertainment, and family-friendly vibes to venues across the country, starting from 2026.</p>
+                    
+                    <p>Our touring pack is carefully curated to deliver the authentic Solfest experience wherever we go. From the moment you arrive until the final encore, you'll be immersed in an atmosphere of joy, music, and community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-section">
+        <div class="container">
+            <div class="mission-content">
+                <h2>Our Mission</h2>
+                <p class="mission-lead">To create accessible, unforgettable experiences that bring people together through the power of live music and shared celebration.</p>
+                
+                <div class="mission-grid">
+                    <div class="mission-card">
+                        <div class="mission-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Family First</h3>
+                        <p>We create safe, welcoming environments where families can enjoy quality time together and make memories that last a lifetime.</p>
+                    </div>
+                    
+                    <div class="mission-card">
+                        <div class="mission-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h3>Quality Entertainment</h3>
+                        <p>Our lineup features carefully selected artists and performers who deliver exceptional live experiences for all ages.</p>
+                    </div>
+                    
+                    <div class="mission-card">
+                        <div class="mission-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Accessible Everywhere</h3>
+                        <p>By touring multiple venues, we're making the Solfest experience available to more communities than ever before.</p>
+                    </div>
+                    
+                    <div class="mission-card">
+                        <div class="mission-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community Spirit</h3>
+                        <p>We foster a sense of belonging and connection, bringing people together through shared experiences and positive vibes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Happy Attendees</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Amazing Artists</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Cities Toured</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <h2 class="section-title">Meet The Team</h2>
+            <p class="section-subtitle">The passionate people behind Solfest On The Road</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-image">
+                        <img src="images/team1.jpg" alt="Team Member">
+                    </div>
+                    <h3>Sarah Johnson</h3>
+                    <p class="team-role">Festival Director</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-image">
+                        <img src="images/team2.jpg" alt="Team Member">
+                    </div>
+                    <h3>Michael Chen</h3>
+                    <p class="team-role">Head of Operations</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-image">
+                        <img src="images/team3.jpg" alt="Team Member">
+                    </div>
+                    <h3>Emma Williams</h3>
+                    <p class="team-role">Creative Director</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-image">
+                        <img src="images/team4.jpg" alt="Team Member">
+                    </div>
+                    <h3>David Martinez</h3>
+                    <p class="team-role">Marketing Manager</p>
+                    <div class="team-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Join the Experience?</h2>
+                <p>Don't miss out on the incredible Solfest On The Road tour. Book your tickets now and be part of something special!</p>
+                <a href="index.html" class="btn-primary btn-large">View Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo-white.png" alt="Hustlesasa" class="footer-logo-img">
+                        <h3>HUSTLESASA INC</h3>
+                    </div>
+                    <p class="footer-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Europe<br>
+                        Penfields Road, Westlands, Nairobi, Kenya
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">NEW EXPERIENCE</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:info@solfest.co.uk">info@solfest.co.uk</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Social</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <p>Follow Hustlesasa INC</p>
+                    <div class="social-links-inline">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of use</a>
+                    <a href="#">Refunds & Returns</a>
+                </div>
+                
+                <p class="copyright">&copy; 2026 Hustlesasa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" id="closeCart">&times;</button>
+        </div>
+        
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Your cart is empty</p>
+        </div>
+        
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">$0.00</span>
+            </div>
+            <button class="btn-primary btn-block" id="checkoutBtn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Item added to cart</span>
+    </div>
+
+    <a href="https://wa.me/yourphonenumber" class="whatsapp-btn" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
